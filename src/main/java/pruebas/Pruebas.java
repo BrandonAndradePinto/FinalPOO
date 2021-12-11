@@ -196,7 +196,7 @@ public class Pruebas {
             String linea = br.readLine();
             
             while(cont <= numero){
-                StringTokenizer tokenizer = new StringTokenizer(linea,"|");
+                StringTokenizer tokenizer = new StringTokenizer(linea,",");
                 if(cont == numero){
                     while(cont1 <= 6){
                         switch (cont1){
